@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EmployeeMaster>
 <Employee>
-    <Personalinfo>
 	<eid ID="2014007176"></eid>
 	<name>PankajRedekar</name>
 	<Mobileno>8087772012</Mobileno>
@@ -15,11 +14,8 @@
 		<State>Maharashtra</State>
 		<Pin>415409</Pin> 
 	</Address>
-	</Personalinfo>
-	<Companyinfo>
 	<Dep>Production </Dep>
 	<role>Head</role>
 	<Mananger>Dhage </Mananger>
-	</Companyinfo>
 </Employee>
 </EmployeeMaster>

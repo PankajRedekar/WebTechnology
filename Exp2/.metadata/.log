@@ -213,3 +213,13 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/XmlExp/NewFile
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2017-07-10 15:53:49.720
 !MESSAGE Resource '/XmlExp/NewFile.xml' does not exist.
+!SESSION 2017-07-12 10:35:29.847 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-12 10:35:34.489
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

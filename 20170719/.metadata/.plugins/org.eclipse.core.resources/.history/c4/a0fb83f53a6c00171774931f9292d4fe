@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books[
+<!ELEMENT BOOK (B_Title,B_Auther,B_Pubyear,B_Price)>
+<!ATTLIST BOOK B_Price CDATA #REQURIED> 
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books[
+<!ELEMENT BOOK (B_Title,B_Author,B_Pubyear)>
+<!ATTLIST BOOK B_Price CDATA #IMPLIED> 
+<!ELEMENT B_Title (#PCDATA)>
+<!ELEMENT B_Author (#PCDATA)>
+<!ELEMENT B_Pubyear (#PCDATA)>
+<!ELEMENT B_Price (#PCDATA)>
+]>
+
+<Books>
+<BOOK B_Price="453">
+	<B_Title>WT</B_Title>
+	<B_Author>S. S. Shinde</B_Author>
+	<B_Pubyear>2014</B_Pubyear>
+</BOOK>
+<BOOK B_Price="499">
+	<B_Title>IOT</B_Title>
+	<B_Author>D. S. Shinde</B_Author>
+	<B_Pubyear>2017</B_Pubyear>
+</BOOK>
+</Books>
