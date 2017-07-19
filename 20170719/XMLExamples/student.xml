@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Students [
+<!ELEMENT STUDENT (name,class,div,mail,phone+,address,subject+,result)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT div (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT address (street,location,tal,dis,state,nation,pincode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT tal (#PCDATA)>
+<!ELEMENT dis (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT nation (#PCDATA)>
+<!ELEMENT pincode (#PCDATA)>
+<!ELEMENT subject (sname,smarks)>
+<!ELEMENT sname (#PCDATA)>
+<!ELEMENT smarks (#PCDATA)>
+<!ELEMENT result (PASS|FAIL)>
+<!ELEMENT PASS (#PCDATA)>
+<!ELEMENT FAIL (#PCDATA)>
+]>
+
+<Students>
+<STUDENT>
+	<name>Pankaj Redekar</name>
+	<class>BE</class>
+	<div>A</div>
+	<mail>pankajredekar1996@gmail.com</mail>
+	<phone>808 777 2012</phone>
+	<phone>87 93 1616 93</phone>
+	<address>
+		<street>2033</street>
+		<location>Sambhaji Chowk</location>
+		<tal>Walwa</tal>
+		<dis>Sangli</dis>
+		<state>Maharashtra(MH)</state>
+		<nation>INDIA(IN)</nation>
+		<pincode>415 409</pincode>
+	</address>
+	<subject>
+		<sname>WT</sname>
+		<smarks>85</smarks>
+	</subject>
+	<subject>
+		<sname>ACA</sname>
+		<smarks>75</smarks>
+	</subject>
+	<subject>
+		<sname>MA</sname>
+		<smarks>80</smarks>
+	</subject>
+	<result>
+		<PASS>PASS</PASS>
+	</result>
+</STUDENT>
+</Students>

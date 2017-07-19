@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Students[
+<!ELEMENT STUDENT (name,class,div,mail,phone,address,subject,result)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT div (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT address (street,location,tal,dis,state,nation,pincode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT tal (#PCDATA)>
+<!ELEMENT dis (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT nation (#PCDATA)>
+<!ELEMENT pincode (#PCDATA)>
+<!ELEMENT subject (sname,smarks)>
+<!ELEMENT sname (#PCDATA)>
+<!ELEMENT smarks (#PCDATA)>
+<!ELEMENT result (#PCDATA)>
+]>

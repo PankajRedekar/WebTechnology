@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books SYSTEM "validate.dtd">
+
+
+<Books>
+<BOOK B_Price="453">
+	<B_Title>WT</B_Title>
+	<B_Author>S. S. Shinde</B_Author>
+	<B_Pubyear>2014</B_Pubyear>
+</BOOK>
+<BOOK B_Price="499">
+	<B_Title>IOT</B_Title>
+	<B_Author>D. S. Shinde</B_Author>
+	<B_Pubyear>2017</B_Pubyear>
+</BOOK>
+</Books>
