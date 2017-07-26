@@ -174,3 +174,12 @@ executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",
 executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1500442282238
 deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442284577
 activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442286723
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442468529
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442526813
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442569050
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442572562
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442607086
+started,bundle,org.eclipse.wst.jsdt.debug.core,2.0.101.v201201112313,"org.eclipse.wst.jsdt.debug.core",1500442608527
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1500442608650
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1500442608936
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1500442608938

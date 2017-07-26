@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Company (Name,NoOfDep,Department+)>
+<!ATTLIST Company cid CDATA #FIXED "12" >
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Department (DName,NoOfEmp,Emp+)>
+<!ATTLIST Department did CDATA #IMPLIED>
+<!ELEMENT DName (#PCDATA)>
+<!ELEMENT NoOfEmp (#PCDATA)>
+<!ELEMENT Emp (Ename,Sal,Address,DOj,Designation)>
+<!ATTLIST Emp Eid CDATA #IMPLIED >
+<!ATTLIST Emp did CDATA #IMPLIED >
+<!ELEMENT Ename (#PCDATA)>
+<!ELEMENT Sal (#PCDATA)>
+<!ELEMENT Address (Street1,Street2?,City,State,Country)>
+<!ELEMENT DOJ (Day,Month,Year)>
+<!ELEMENT Street1 (#PCDATA)>
+<!ELEMENT Street2 (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Day (#PCDATA)>
+<!ELEMENT Month (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Designation (#PCDATA)>
+ 

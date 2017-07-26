@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Company cid="12">
+	<Name>Cubical Minds</Name>
+	<NoOfDep>2</NoOfDep>
+	<Department did="2017001">
+		<Name>Development</Name>
+		<NoOfEmp>7</NoOfEmp>
+		<Emp eid="2014007176" did="2017001">
+			<Ename>Pankaj Redekar</Ename>
+			<Sal>45000</Sal>
+			<Address>
+				<Street1>2033</Street1>
+				<Street2>2034</Street2>
+				<City>Kolhapur</City>
+			</Address>
+			<DOJ>01/01/2017</DOJ>
+			<Designation>CEO</Designation>
+		</Emp>
+	</Department>
+
+</Company>

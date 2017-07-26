@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!Element Company (Name,NoOfDep,Department+)>
+<!Element Company cid CDATA #FIXED>
+<!Element Name (#PACDATA)>

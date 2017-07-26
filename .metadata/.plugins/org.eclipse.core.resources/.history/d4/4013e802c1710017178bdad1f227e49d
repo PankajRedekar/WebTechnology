@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Company SYSTEM "validate.dtd">
+
+<Company cid="12">
+	<Name>Cubical Minds</Name>
+	<NoOfDep>2</NoOfDep>
+	<Department did="2017001">
+		<DName>Development</DName>
+		<NoOfEmp>7</NoOfEmp>
+		<Emp eid="2014007176" did="2017001">
+			<Ename>Pankaj Redekar</Ename>
+			<Sal>45000</Sal>
+			<Marital_Status>Single</Marital_Status>
+			<Address>
+				<Street1>2033</Street1>
+				<Street2>2034</Street2>
+				<City>Islampur</City>
+				<State>Maharashtra</State>
+				<Country>India</Country>
+			</Address>
+			<DOJ>
+				<Day>1</Day>
+				<Month>1</Month>
+				<Year>2017</Year>
+			</DOJ>
+			<Designation>CEO</Designation>
+		</Emp>
+		<Emp eid="2014007200" did="2017001">
+			<Ename>Prasad Dhage</Ename>
+			<Sal>40000</Sal>
+			<Marital_Status>Single</Marital_Status>
+			<Address>
+				<Street1>1985</Street1>
+				<Street2></Street2>
+				<City>Barshi</City>
+				<State>Maharashtra</State>
+				<Country>India</Country>
+			</Address>
+			<DOJ>
+				<Day>1</Day>
+				<Month>1</Month>
+				<Year>2017</Year>
+			</DOJ>
+			<Designation>CO</Designation>
+		</Emp>
+	</Department>
+	
+	<Department did="2017002">
+		<DName>Finance</DName>
+		<NoOfEmp>2</NoOfEmp>
+		<Emp eid="2014007201" did="2017002">
+			<Ename>Tejas Patil</Ename>
+			<Sal>45000</Sal>
+			<Marital_Status>Single</Marital_Status>
+			<Address>
+				<Street1>1255</Street1>
+				<Street2></Street2>
+				<City>Kapshi</City>
+				<State>Maharashtra</State>
+				<Country>India</Country>
+			</Address>
+			<DOJ>
+				<Day>1</Day>
+				<Month>1</Month>
+				<Year>2017</Year>
+			</DOJ>
+			<Designation>CFO</Designation>
+		</Emp>
+		<Emp eid="2014007203" did="2017002">
+			<Ename>Abhishek Zirange</Ename>
+			<Sal>40000</Sal>
+			<Marital_Status>Marride</Marital_Status>
+			<Address>
+				<Street1>1278/A</Street1>
+				<Street2></Street2>
+				<City>Sambhapur</City>
+				<State>Maharashtra</State>
+				<Country>India</Country>
+			</Address>
+			<DOJ>
+				<Day>1</Day>
+				<Month>1</Month>
+				<Year>2017</Year>
+			</DOJ>
+			<Designation>CO</Designation>
+		</Emp>
+	</Department>
+</Company>
